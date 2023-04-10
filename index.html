@@ -14,7 +14,7 @@
 </head>
 </html>
 <header>
-  <h1>Web Design 1 Reference Website</h1>
+  <h1 id="opening">Web Design 1 Reference Website</h1>
   <img src="Images/speech-bubbles-pixel-hello-png.webp" alt="Hello image">
   <nav>
     <div class="boxed"> 
@@ -43,15 +43,17 @@
   </section>
   
   <section id="commit-messages">
-    <h2>Commit messages</h2>
-    <p>The best practices for commit messages.</p>
-    <ul>
-        <li><p>Minimum 3 words & 10 characters</p></li>
-        <li><p>Proper spelling & grammar</p></li>
-        <li><p>Capital starting letter, <b>no period</b></p></li>
-        <li><p>Must Start with an imperative verb: <em>Create, Fix, Add, Solve</em> etc.</p></li>
-        <li><p>Pretend every commit starts with the phrase: <strong>"This commit will..."</strong></p></li>
+    <div>
+        <h2>Commit messages</h2>
+        <p>The best practices for commit messages.</p>
+         <ul>
+            <li><p>Minimum 3 words & 10 characters</p></li>
+            <li><p>Proper spelling & grammar</p></li>
+             <li><p>Capital starting letter, <b>no period</b></p></li>
+             <li><p>Must Start with an imperative verb: <em>Create, Fix, Add, Solve</em> etc.</p></li>
+             <li><p>Pretend every commit starts with the phrase: <strong>"This commit will..."</strong></p></li>
     </ul>
+    </div>
     <img src="Images/commit_screenshot.png" alt="screenshot of how to commit messages" />
 
   </section>
@@ -79,13 +81,17 @@
 
 <h4>Blockquotes</h4>
     <p>The blockquote tag is used for quotations, usually for longer blocks of text.</p>
-    <blockquote>"Time is too slow for those who wait, too swift for those who fear, too long for those who grieve, too short for those who rejoice, but for those who love, time is eternity" -Henry Van Dyke</blockquote>
+     <blockquote><i>"Time is too slow for those who wait, too swift for those who fear, too long for those who grieve, too short for those who rejoice, but for those who love, time is eternity"</i> -Henry Van Dyke</blockquote>
         <p>The quotation tag on the other hand is used for smaller quotes.</p>
         <q>The only costant in life is change. -Heraclitus</q>
 
-        <p>A recent Kickstarter project I saw used the quote from Heraclitus above in their campaign video, the item is called The Flux Keyboard.</p>
-            <img src="Images/flux-keyboard.png" alt="screenshot from the flux keyboard campaign video"/>
-                <p><cite>Flux Keyboard</cite> By Flux Group Pty.Ltd.</p> 
+        <p>A recent Kickstarter project I saw used the quote from Heraclitus above in their campaign video, the item is called The Flux Keyboard. Click the image to be redirected to the Kickstarter.</p>
+            <a href="https://www.kickstarter.com/projects/fluxkeyboard/flux-keyboard-the-keyboard-reinvented/description">
+                <img src="Images/flux-keyboard.png" alt="screenshot from the flux keyboard campaign video"/>
+                <a href="https://fluxkeyboard.com/" aria-label="read more about the keyboard">Read More</a>
+             
+        <p><cite>Flux Keyboard</cite> By Flux Group Pty.Ltd.</p> 
+       
 
     <div class="boxed"> 
      <h2>Types of Lists</h2>
@@ -101,7 +107,7 @@
      <ol>
         <li><p>This is an ordered list</p></li>
          <li><p>Ol represents a list in which items are intentionally ordered</p></li>
-        <li><p>Changing the order would change the meaning of the list</p></li>
+        <li><p>Changing the order would change the meaning of the page</p></li>
      </ol>
 
         <!--Here we explain the different types of description tags-->
@@ -109,11 +115,13 @@
          <dl>A dl tag defines a description list</dl>
          <dl><dt>dl used with dt is for defining terms/names</dt></dl>
         <dl><dd>using dl with dd describes each term/name</dd></dl>
+        <a href="#opening">This will take you back to the top of the List.</a>
 </div>
-
 
   </section>
 </main>
+
+
 
 <section id="footer">
 <article>

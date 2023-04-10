@@ -45,6 +45,18 @@ a:focus {
   color: aqua;
 }
 
+a:visited{
+  color: pink;
+  text-transform:capitalize;
+  text-decoration: line-through;
+  
+}
+a:default {
+  font-family: "Georgia", serif;
+  color:blueviolet;
+  text-decoration: none;
+  
+}
 img {
   width: 50%;
 }
