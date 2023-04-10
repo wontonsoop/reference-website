@@ -1,0 +1,18 @@
+body {
+  font-family: "Raleway";
+  color: white;
+  background-color: pink;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 1.125rem;
+}
+h1 {
+  color: white;
+
+}
+h2 {
+  color: blueviolet;
+}
+h3 {
+  color:deepskyblue
+}
