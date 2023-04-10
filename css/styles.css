@@ -1,18 +1,27 @@
 body {
   font-family: "Raleway";
-  color: white;
-  background-color: pink;
-  padding: 0;
-  line-height: 1.5;
-  font-size: 1.125rem;
+    color: black;
+      background-color: pink;
+       padding: 0;
+      line-height: 1.5;
+    font-size: 1.125rem;
+}
+.boxed {
+  border: 3px solid plum;
+   background-color: palevioletred;
+  padding: 30px;
 }
 h1 {
   color: white;
+  line-height: normal;
+  margin: 2rem 0;
 
 }
 h2 {
+  font-family: "Helvetica";
   color: blueviolet;
+  margin: 2rem 0;
 }
 h3 {
-  color:deepskyblue
+  color:deepskyblue;
 }

@@ -17,38 +17,49 @@
   <h1>Web Design 1 Reference Website</h1>
   <img src="Images/speech-bubbles-pixel-hello-png.webp" alt="Hello image">
   <nav>
+    <div class="boxed"> 
     <ul>
       <li><a href="#naming-coventions">Naming Conventions</a></li>
         <li><a href="#commit-messages">Commit messages</a></li>
-     <li><a href="#html-elements">HTML Elements</a></li>
-     
+        <li><a href="#html-elements">HTML Elements</a></li>
+      <li><a href="footer">Footer</a></li>
+    </div>
   </nav>
 </header>  
 
 <main>
   <section id="naming-coventions">
+    <div class="boxed"> 
+    <img src="Images/naming_conventions.png" alt="screenshot of naming conventions slide" />
     <h2>Naming Conventions</h2>
     
     <h3>Rules for naming files and paths</h3>
     <ul>
-      <li><p>Don't use special characters</p></li>
-        <li><p>Don't use spaces</p></li>
+    <li><p>Don't use spaces</p></li>
         <li><p><strong>Only use lowercase</strong></p></li>
       <li><p>Only letters, numbers, and dashes</p></li>
     </ul>
+</div>
   </section>
   
   <section id="commit-messages">
     <h2>Commit messages</h2>
-    <p> To Commit a message is by saving, creating a commit, and then pushing to origin.
-        Keep it short to 3 words with "I will commit to..." in your mind.
-    </p>
+    <p>The best practices for commit messages.</p>
+    <ul>
+        <li><p>Minimum 3 words & 10 characters</p></li>
+        <li><p>Proper spelling & grammar</p></li>
+        <li><p>Capital starting letter, no period</p></li>
+        <li><p>Must Start with an imperative verb: <i>Create, Fix, Add, Solve</i> etc.</p></li>
+        <li><p>Pretend every commit starts with the phrase: <strong>"This commit will..."</strong></p></li>
+    </ul>
+    <img src="Images/commit_screenshot.png" alt="screenshot of how to commit messages" />
+
   </section>
   
   <section id="html-elements">
     <h2>HTML Elements</h2>
     
-    <h3>Headings</h3>
+    <h2>Headings</h2>
     <!-- explain headings -->
     <div>
         <h1><p>Heading 1 is used for the main topic, it'll be smaller than the title.</p></h1>
@@ -59,9 +70,14 @@
         <h6><p>Here's h6, look how small it is here!</p></h6>
     </div>
     
-    <h3>Paragraph</h3>
-    <p>This is an example of a chunk of text within a p tag.</p>
-    
+    <h3>Paragraphs</h3>
+    <p>In the p tag you can add text, you can see through here you can read my writing. I'll talk about an interest for a bit to add some text.
+        I love to listen to music in my free time, my favorite genre being Electro Swing. It's very upbeat and jazzy.
+    </p>
+
+<p id="anchor">This is a song I like called <a href="https://youtu.be/j7ZggaUbVlI">Betty Boop.</a></p>
+
+    <h2>Types of Lists</h2>
     <h3>Unordered list</h3>
     
     <ul>
@@ -69,5 +85,29 @@
         <li>in an unordered list</li>
       <li>where my order is not important</li>
     </ul>
+
+    <h3>Ordered List</h3>
+    <ol>
+        <li><p>This is an ordered list</p></li>
+        <li><p>Ol represents a list in which items are intentionally ordered</p></li>
+        <li><p>Changing the order would change the meaning of the list</p></li>
+    </ol>
+
+    <h3>Description List</h3>
+    <dl>A dl tag defines a description list</dl>
+    <dl><dt>dl used with dt is for defining terms/names</dt></dl>
+    <dl><dd>using dl with dd describes each term/name</dd></dl>
+
+
+
   </section>
 </main>
+
+<section id="footer">
+<article>
+    <h3>Footer</h3>
+    <p><i>A footer contains information about the author of the section, copyright data, or links to related documents. These are at the bottom of the page.</i></p>
+<footer><p>author name</p>
+<p>Information for authors here</p></footer>
+</article>
+</section>
